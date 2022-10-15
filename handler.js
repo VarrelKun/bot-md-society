@@ -636,12 +636,14 @@ module.exports = {
    await conn.sendButtonDoc(id, text, wm, action == 'add' ? 'selamat datang' : 'sampai jumpa', action === 'add' ? '.intro' : 'the.sad.boy01', fake,{
   contextInfo: { externalAdReply :{
     showAdAttribution: true,
-    mediaUrl: 'https://nekopoi.care',
-    mediaType: 2,
+    renderLargerThumbnail: true,
+    mediaUrl: 'https://instagram.com/_lucxfvr/',
+    containsAutoReply: true,
+    mediaType: 1,
     description: data.deslink , 
     title: run,
     body: wm,
-    thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
+    thumbnail: await(await fetch(pp)).buffer(),
     sourceUrl: data.linkgc
      }}
   })
