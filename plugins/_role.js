@@ -36,7 +36,7 @@ handler.before = function (m) {
                                                                                                                                 : ((user.level >= 91) && (user.level <= 94)) ? 'Mythic IV'
                                                                                                                                     : ((user.level >= 94) && (user.level <= 97)) ? 'Mythic III'
                                                                                                                                         : ((user.level >= 97) && (user.level <= 100)) ? 'Mythic II'
-                                                                                                                                            : 'Mythic I'
+                                                                                                                                            : 'God'
     user.role = role
     return !0
 }
